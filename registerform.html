@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="registerform.css">
+    <div>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" placeholder="Enter your first name"required/>
+    </div>
+    <div>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" placeholder="Enter your last name"/>
+    </div>
+    <div>
+        <label for="mail">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" required/>
+    </div> 
+    <div>
+        <label for="passwor">passwor:</label>
+        <input type="password" id="email" placeholder="Enter password" minlength="5" maxlength="10"/>
+    </div>
+    <div>
+        <label for="age">age:</label>
+        <input type="number" id="age" placeholder="Enter Age" min="18" max="60"required/>
+    </div> <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob"/>
+    </div> 
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male"/>male
+        <input type="radio"name="gender" value="female"/>female
+        <input type="radio"name="gender" value="others"/>others
+    </div> 
+    <div>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox"/>Reading
+        <input type="checkbox"/>Playing
+        <input type="checkbox"/>Dancing
+    </div>
+    <div>
+        <label for="year">year of study:</label> 
+        <select name="year" id="year">
+            <option value="1">1st year</option>
+            <option value="2">2nd year</option>
+            <option value="3">3rd year</option>
+            <option value="4">4th year</option>
+        </select>
+    </div>
+        <div>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" rows="5"></textarea>
+        </div>    
+            <div>
+                <label for="file">Upload your resume:</label>
+                <input type="file"
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">submit</button>  
+</form>
+
+</body>
+</html>
+</body>
+</html>
