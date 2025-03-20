@@ -1,0 +1,36 @@
+body{
+    color: blue;
+    font-size: larger;
+}
+
+div{
+    color: black;
+}
+
+.name{
+    background-color: chartreuse;
+}
+
+#idname{
+    font-size: x-large;
+}
+
+input[type="text"]{
+    color: blueviolet;
+}
+
+h1,p{
+    color: brown;
+}
+
+.parent-selector>p{
+    color:green;
+    font-size: x-large;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ 
+.c-div +c{
+    color: aquamarine;
+}
